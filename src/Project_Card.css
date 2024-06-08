@@ -1,0 +1,14 @@
+.projectcard_container{
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    padding :4px
+}
+
+.projectcard_container div{
+    text-align: center;
+}
+
+.projectcard_footer{
+    text-align: right;
+}

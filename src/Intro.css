@@ -1,0 +1,21 @@
+.split-section{
+    display: flex;
+}
+
+.left-section-details{
+    max-width: 300px;
+    background-color: #F0F0F0;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.left-section-content{
+    padding: 15px;
+}
+.right-section-photo{
+    margin-bottom: 20px;
+}
+
+.intro-section{
+    margin-top: 40px;
+}

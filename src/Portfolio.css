@@ -1,0 +1,8 @@
+.portfolio_container{
+    width : 60%;
+    margin:auto;
+    text-align: center;
+    font-size: 3rem;
+    line-height: 1;
+    font-weight: 800;
+}

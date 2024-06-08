@@ -1,0 +1,7 @@
+.projectcards-container{
+    display: flex;
+    justify-content: space-between; 
+    margin: auto;
+    width: 60%;
+    margin-top: 2rem;
+}

@@ -1,0 +1,21 @@
+.aboutme_title {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme_title h6{
+    margin: 0;
+    text-align: center;
+
+}
+
+.aboutme_title h3{
+    margin: 0;
+
+}
+
+.aboutme_container{
+    display: flex;
+    justify-content: center;
+}
+

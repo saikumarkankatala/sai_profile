@@ -1,0 +1,4 @@
+export const Projects = [{title : 'Qkart', description : 'This project is an Amazon clone built with React and JavaScript. It features core functionalities such as user authentication, product listings, and a shopping cart, providing a simplified version of an e-commerce platform.', actionLink: 'https://github.com/saikumarkankatala/QKart'},
+
+                    {title: 'FTIR', description: 'In recent years, microplastic (MP) pollution has emerged as a significant environmental concern worldwide. To aid in the identification and classification of MP particles, this study proposes the utilization of Attenuated Total Reflection Fourier Transform Infrared Spectroscopy (ATR-FTIR) data combined with advanced Machine Learning (ML) techniques', actionLink: 'https://github.com/saikumarkankatala/FTIR'}
+]
