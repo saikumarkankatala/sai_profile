@@ -1,0 +1,65 @@
+.traits-container {
+    width: 60%;
+    margin: auto;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.traits-grid-container {
+    display: grid;
+    grid-template-columns: 40px auto;
+    gap: 20px;
+}
+
+.trait-serial-number {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #0073e6;
+}
+
+.trait-description {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.trait-description-title {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.trait-description-desc {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.6;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .traits-container {
+        width: 90%;
+    }
+
+    .traits-grid-container {
+        grid-template-columns: 30px auto;
+        gap: 15px;
+    }
+
+    .trait-serial-number {
+        font-size: 1.5rem;
+    }
+
+    .trait-description-title {
+        font-size: 1.5rem;
+    }
+
+    .trait-description-desc {
+        font-size: 0.9rem;
+    }
+}

@@ -1,12 +1,13 @@
 .split-section{
     display: flex;
+    justify-content: center;
 }
 
 .left-section-details{
     max-width: 300px;
     background-color: #F0F0F0;
     margin-top: 20px;
-    margin-left: 150px;
+    /* margin-left: 150px; */
 }
 
 .left-section-content{
@@ -16,6 +17,55 @@
     margin-bottom: 20px;
 }
 
-.intro-section{
+.left-section-content h2,
+.left-section-content h3 {
+    margin: 0;
+    padding: 10px 0; /* Adds vertical space around headings */
+}
+
+.intro-section {
     margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+button {
+    background-color: #007BFF; /* Primary button color */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 20px; /* Space from the last text */
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button a {
+    text-decoration: none;
+    color: inherit; /* Inherits color from the button */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+
+@media (max-width:768px) {
+    .split-section{
+        flex-direction:column;
+    }
+    .left-section-details{
+        max-width:100%;
+        margin-top:0;
+        padding: 15px;
+    }
+    .left-section-content{
+        font-size:1rem;
+    }
+    .right-section-photo img{
+        width:100%;
+        border-radius: 10px; 
+    }
 }

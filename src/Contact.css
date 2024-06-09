@@ -1,0 +1,27 @@
+.contact-me {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .social-links {
+    margin: 20px 0;
+  }
+  
+  .social-icon {
+    margin: 0 10px;
+    color: white; /* Icon color */
+    font-size: 24px; /* Icon size */
+  }
+  
+  .social-icon:hover {
+    color: #ccc; /* Icon hover color */
+  }
+  
+  footer {
+    margin-top: 20px;
+    color: #ff0; /* Footer text color */
+  }
+  

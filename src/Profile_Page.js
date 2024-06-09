@@ -6,7 +6,8 @@ import './Profile_Page.css'
 import {Projects} from './constants.js'
 import Portfolio from './Portfolio.js'
 import AboutMe from './AboutMe.js'
-
+import TraitsContainer from './TraitsContainer.js'
+import Contact from './Contact.js'
 
 function Profile() {
   return (
@@ -21,6 +22,8 @@ function Profile() {
           
         </div>
         <AboutMe/>
+        <TraitsContainer/>
+        <Contact/>
        
     </div>
 

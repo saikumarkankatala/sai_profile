@@ -1,9 +1,19 @@
 .projectcard_container{
+    display: flex;               /* Use flexbox */
+    flex-direction: column;      /* Stack children vertically */
+    justify-content: space-between;
     width: 300px;
-    height: 350px;
+    height: 375px;
+    border-radius: 8px; 
     border: 1px solid black;
-    padding :4px
+    padding :4px;
 }
+
+.projectcard_container:hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2); 
+}
+
 
 .projectcard_container div{
     text-align: center;
@@ -11,4 +21,20 @@
 
 .projectcard_footer{
     text-align: right;
+}
+
+@media (max-width: 768px) {
+    .projectcard_container {
+        margin: 10px 0;
+        height: 340px;
+        width: 90%;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .projectcard_container {
+        margin: 10px 15px;
+        height: 475px;
+        width: 90%;
+    }
 }

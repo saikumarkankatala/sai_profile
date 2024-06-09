@@ -19,7 +19,7 @@ const {
         </div>
 
         <div className='projectcard_footer'>
-            <button>Go to </button>
+           <a href= {actionLink} target='blank'><button >Go to </button></a> 
         </div>
         
     </div>

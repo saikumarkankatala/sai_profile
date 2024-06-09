@@ -12,7 +12,7 @@ html,body{
     height: 40px;
     width:100%;
     padding: 10px;
-    box-shadow: #fff 8px 8px;
+    /* box-shadow: #fff 8px 8px; */
     display: flex;
     justify-content: space-between;
     position: fixed;
@@ -20,6 +20,10 @@ html,body{
     background: black; 
     z-index: 1000;
     color: white;
+}
+
+.intro-head{
+    color: white
 }
 
 .pname h3{
@@ -36,6 +40,11 @@ a{
     display: inline-block;
 }
 
+
+.action-link:hover {
+    color: #0094ff;
+}
+
 .cta-actions{
         display: flex;
         justify-content: space-around;
@@ -44,6 +53,12 @@ a{
 
 .cta-actions a{
     color :white;
+}
+
+@media (max-width:768px) {
+    .cta-actions {
+        display: none;
+    }
 }
 
 

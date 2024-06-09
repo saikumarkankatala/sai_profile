@@ -5,4 +5,30 @@
     font-size: 3rem;
     line-height: 1;
     font-weight: 800;
+    padding-top: 40px ;
+}
+
+.github-cta {
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+    background: #ff00008a;
+    width:104px;
+    cursor:pointer;
+}
+
+.github-cta-label {
+    display:flex;
+    justify-content:space-between;
+}
+
+.github-cta-label img {
+    width:30px;
+    height:30px;
+}
+
+
+.github-cta-label div {
+    align-self:center;
+    font-size:20px;
 }
