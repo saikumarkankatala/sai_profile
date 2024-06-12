@@ -38,7 +38,9 @@ a{
 .action-link p{
     margin:0px;
     display: inline-block;
+    margin-right: 5px;
 }
+
 
 
 .action-link:hover {
@@ -56,8 +58,12 @@ a{
 }
 
 @media (max-width:768px) {
-    .cta-actions {
+    .cta-actions a:not(:last-child) {
         display: none;
+    }
+
+    .cta-actions a:last-child {
+        padding-left: 45px;
     }
 }
 

@@ -10,12 +10,16 @@ export default function Intro() {
             <div className='split-section'> 
                 <div className='left-section-details'>
                     <p className='left-section-content'>
-                    <h2>HI! I am Sai K Kankatala</h2>
+                    <h2>  Hello and Welcome! </h2>
 
-                    <h3>JAVA FULL STACK DEVELOPER</h3>
-
-                    My tech stack includes Java, Spring, Spring Boot, MySql, JavaScript, React
-
+                    <h3>Sai K Kankatala</h3>
+                    <div className='intro-text'>
+                    I'm a dynamic and innovative Java Full Stack Developer driven by a passion for crafting high-performance, scalable, 
+                    and user-centric applications. With expertise in both front-end and back-end technologies, I thrive on solving complex challenges and transforming creative 
+                    ideas into seamless digital experiences. Dive into my professional portfolio and discover how my skills and projects can bring value and innovation to your 
+                    team.
+                    </div>
+                    
                     <button> <a href = {resume} target='_blank'>Download Resume</a></button>
                     </p>
                 </div>

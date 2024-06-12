@@ -7,22 +7,22 @@ export const traits =[
     {
         serial:'01',
         title:'Passionate and dedicated software developer',
-        description:'I am a tech enthusiast who enjoys eating, traveling, and coding. With professional experience in developing enterprise-level e-commerce applications using SAP Commerce cloud, Java, Spring, Spring Boot, and SQL, I thrive on challenges both personally and professionally.'
+        description:"I'm more than just a developer; I'm a tech enthusiast who thrives on challenges. With a robust background in developing enterprise-level e-commerce applications using cutting-edge technologies such as SAP Commerce Cloud, Java, Spring, Spring Boot, and SQL, I'm committed to crafting user-centric solutions that are both efficient and scalable."
     },
     {
         serial:'02',
         title:'Strong problem solving and critical thinking',
-        description:'As a Mathlover since childhood I solved and love to solve problems on a anyday which helped to imporve both my problem solving and critical thinking skills. And these skills eventually turned me into a excellent programmer with strong thinking.'
+        description:"From a young age, I've been passionate about math, and it's shaped my approach to problem-solving. Each challenge I encounter is an opportunity to showcase my strong problem-solving skills and leverage my critical thinking abilities to engineer innovative solutions using advanced algorithms and data structures"
     },
     {
         serial:'03',
         title:'Excellent communicator',
-        description:'In any field communication is the key, same applies to software industry. Either the transition of user stories from stake holders to a bussnisess analyst and from there to developers,architects. In every phase communication is the key. Equipped with good communication skills made me more productive and transparent in the work area.'
+        description:"In the software industry, communication is key. My strong communication skills ensure seamless collaboration between stakeholders, analysts, and developers, facilitating the smooth transition of user stories and technical requirements. Whether it's using Agile methodologies or facilitating technical discussions, I ensure that all team members are aligned, leading to more productive and transparent work environments."
     },
     {
         serial:'04',
         title:'Strong work ethic',
-        description:'An incredibly positive team first attitude, a strong ethic, organizational goals, continuios learner, never turn down an assignment these are some of the terms which are used by my previous managers/supervisors to describe me and about my contributions towards a team developemnt and work.'
+        description:"Described by previous managers as having an incredibly positive, team-centric attitude, I'm dedicated to organizational goals, continuous learning, and never backing down from a challenge. My strong work ethic is evident in my commitment to writing clean, maintainable code, following best practices, and staying updated with the latest technologies and industry trends."
     }
 
 ]
