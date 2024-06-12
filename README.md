@@ -1,6 +1,17 @@
-# Getting Started with Create React App
+# Sai K Kankatala's Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my portfolio repository! This project showcases my skills, projects, and experience as a software developer.
+
+## Overview
+
+I'm more than just a developer; I'm a tech enthusiast who thrives on challenges. With a robust background in developing enterprise-level e-commerce applications using cutting-edge technologies such as SAP Commerce Cloud, Java, Spring, Spring Boot, and SQL, I'm committed to crafting user-centric solutions that are both efficient and scalable.
+
+## Technologies Used
+
+- **Frontend:**
+  - React
+  - HTML
+  - CSS
 
 ## Available Scripts
 
@@ -8,16 +19,11 @@ In the project directory, you can run:
 
 ### `npm start`
 
-Runs the app in the development mode.\
+It runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
 ### `npm run build`
 
@@ -27,6 +33,14 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Deployment
 
+This project is deployed using [Netlify](https://sai-kankatala.netlify.app/). For detailed deployment instructions, visit [Netlify's documentation](https://docs.netlify.com/).
 
+## Contact
+
+Feel free to contact me through my [LinkedIn](https://www.linkedin.com/in/sai-kankatala/).
+
+---
+
+Thank you for visiting my portfolio repository. I hope you find my work interesting and valuable!
